@@ -8,14 +8,13 @@ require("dotenv").config();
 const app = express();
 
 const port = process.env.PORT || 5001;
-
 mongoose
   .connect(process.env.DB, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
   })
-  .then(() => console.log(`Database connected successfully`))
+  .then(() => console.log(`Database connected successfullyyy`))
   .catch((err) => console.log(err));
 
 mongoose.Promise = global.Promise;

@@ -2,9 +2,8 @@ FROM node:14-slim
 
 WORKDIR /app
 
-COPY ./package.json ./
-COPY ./package.lock.json ./
+COPY ./package.json .
 RUN npm install 
 
-COPY . ./
-CMD ["npm", "start"]
+COPY . .
+CMD ["node", "index.js"]
