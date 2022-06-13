@@ -1,3 +1,6 @@
+### MERN + Redux App Ready for Docker
+Note: db connection for MongoDB Atlas goes in a .env file in the server directory. 
+
 # Shopping Cart App
 
 ## Setup
